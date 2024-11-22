@@ -82,10 +82,10 @@ const Footer = () => {
             {/* Social Icons with Pop Animations */}
             <div className="flex space-x-4 mt-4 md:mt-0">
               {[
-                { Icon: FaFacebookF, href: "#" },
-                { Icon: FaInstagram, href: "#" },
-                { Icon: FaTwitter, href: "#" },
-                { Icon: FaLinkedinIn, href: "#" },
+                // { Icon: FaFacebookF, href: "#" },
+                { Icon: FaInstagram, href: "https://www.instagram.com/editeonn?igsh=dHZ3aHdwYjlqc2pp" },
+                // { Icon: FaTwitter, href: "#" },
+                // { Icon: FaLinkedinIn, href: "#" },
               ].map(({ Icon, href }, idx) => (
                 <motion.a
                   key={idx}
